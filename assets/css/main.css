@@ -3328,17 +3328,17 @@ input, select, textarea {
 				}
 
 				ul.major-icons li .icon {
-					height: 8em;
-					line-height: 8em;
-					width: 8em;
-					-moz-transform: rotate(45deg);
-					-webkit-transform: rotate(45deg);
-					-ms-transform: rotate(45deg);
-					transform: rotate(45deg);
+					height: 4em;
+					line-height: 4em;
+					width: 4em;
+					-moz-transform: rotate(45deg) scale(140%);
+					-webkit-transform: rotate(45deg) scale(140%);
+					-ms-transform: rotate(45deg) scale(140%);
+					transform: rotate(45deg) scale(140%);
 				}
 
 				ul.major-icons li .icon i {
-					font-size: 80px;
+					font-size: 45px;
 				}
 
 		/* Main */
@@ -3402,6 +3402,10 @@ input, select, textarea {
 					-webkit-transform: rotate(45deg);
 					-ms-transform: rotate(45deg);
 					transform: rotate(45deg);
+				}
+
+				ul.major-icons li .icon i {
+					font-size: 80px;
 				}
 
 		/* Main */
@@ -3604,3 +3608,14 @@ input, select, textarea {
 			}
 
 	}
+
+.edu {
+	display: flex;
+	text-align: left;
+}
+
+.edu img {
+	width: 80px;
+	height: 80px;
+	margin-right: 15px;
+}
